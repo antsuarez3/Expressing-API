@@ -1,0 +1,26 @@
+{
+  "name": "expressing-api",
+  "version": "1.0.0",
+  "description": "Building API with ExpressJS",
+  "main": "server/server.js",
+  "scripts": {
+    "dev": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antsuarez3/Expressing-API.git"
+  },
+  "author": "Anthony Suarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antsuarez3/Expressing-API/issues"
+  },
+  "homepage": "https://github.com/antsuarez3/Expressing-API#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
